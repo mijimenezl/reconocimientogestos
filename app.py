@@ -15,7 +15,7 @@ data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
 st.title("Reconocimiento de gestos!")
 #st.write("Versión de Python:", platform.python_version())
-image = Image.open('OIG5.jpg')
+image = Image.open('reconocimiento.jpg')
 st.image(image, width=500)
 with st.sidebar:
     st.subheader("Usando un modelo entrenado en teachable Machine puedes Usarlo en esta app para identificar")
