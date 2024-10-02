@@ -18,8 +18,8 @@ st.title("Reconocimiento de gestos!")
 image = Image.open('OIG5.jpg')
 st.image(image, width=500)
 with st.sidebar:
-    st.subheader("Usando un modelo entrenado en teachable Machine puedes Usarlo en esta app para identificar")
-img_file_buffer = st.camera_input("Toma una Foto")
+    st.subheader("Usando un modelo entrenado en teachable Machine puedes Usarlo en esta app para identificar. ")
+img_file_buffer = st.camera_input("Toma una foto ;)")
 
 if img_file_buffer is not None:
     # To read image file buffer with OpenCV:
